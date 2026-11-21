@@ -17,5 +17,6 @@
   "run_limit": "1,800 steps (90 s at 20 Hz)",
   "reset_notes": "One ordinary string-and-tag tea bag per trial: steep it for 1 minute in the mug in room-temperature water coloured with a second bag, then stand the spoon in, take the string once round the handle and let the tag hang. Wipe the spoon and plate; change the paper if a drop fell on it. The grippers hold only the dry tag and the spoon's handle.",
   "fidelity": "Isaac Sim 6.1 PhysX, rigid bodies, 240 Hz, no liquid. The wet bag is a rigid pillow: it counts as squeezed out once the spoon has pressed it on the mug's wall with 1.5 N or more (the wall pressing back with 1 N or more; real contact forces) for 1 s. Out of the tea and not squeezed out, it lets a drop fall every 0.5 s (a rule; drops are drawn). The string is a 105 mm length limit, drawn as beads, touching nothing; the tag starts on a hinge that lets go at 1 N. The tea is weight only.",
-  "scores": "Dream-1 run: 0.0 after 225 of 1,800 steps (11 s); termination: DreamSessionExpired:expired (a first attempt ended the same way at step 177). Scripted demo: 1.0 at step 610 (30.5 s). Control, the same demo without the squeeze: 0.25 (4 drops on the paper)."
+  "scores": "Dream-1 run: 0.0 after 225 of 1,800 steps (11 s); termination: DreamSessionExpired:expired (a first attempt ended the same way at step 177). Scripted demo: 1.0 at step 610 (30.5 s). Control, the same demo without the squeeze: 0.25 (4 drops on the paper).",
+  "media": "M-XBPDBN"
 }
