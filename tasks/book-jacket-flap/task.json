@@ -1,0 +1,22 @@
+{
+  "title": "Tuck a hardback's loose dust-jacket flap back inside its front cover, holding it in until the closing cover traps it",
+  "category": "Societal relatability",
+  "keywords": [
+    "books",
+    "dust jacket",
+    "paper flap",
+    "springy crease",
+    "hinged cover",
+    "hold until trapped",
+    "bimanual"
+  ],
+  "instruction": "The dust jacket's front flap has come out of this book. Tuck it back inside the front cover and close the book.",
+  "context": "Hardbacks are sold in paper dust jackets whose flaps fold round the edges of the covers, and a flap that has slipped out has to be tucked back in, something most people who own books have done. The flap springs straight back out when let go, so one hand must hold it inside the cover while the other swings the cover shut over it.",
+  "setup": "Bench top z = 0.7475 m (x away from the arms, y to the left). A cloth-bound hardback, 200 mm tall, 135 mm wide boards (3 mm thick) over a 24 mm text block whose fore-edge stands 6 mm in from the boards' edge, 0.70 kg plus a 66 g front board, stands upright on its tail with its front cover facing the arms, its spine to the right (the cover's hinge at x 0.256, y -0.105) and its fore-edge to the left (y +0.030 when shut); the pages' mid-thickness is at x 0.270. Its back cover rests against a steel L bookend (plate 110 x 150 mm, 2 mm thick, on a 90 mm base) behind it. The front cover stands ajar 28 degrees (its fore-edge swung toward the arms, at x 0.193, y 0.014); the cover's joint is stiff and stays where it is left. A paper dust jacket is on: wrapped round the spine and back cover, its front panel on the front cover, but its front flap (50 mm wide, 200 mm tall, 4 g) has come out: it sticks out straight beyond the cover's fore-edge, in line with the cover, on a crease 3.5 mm beyond the cover's edge that has been flattened, so the flap rests bent 5 degrees outward and springs back toward that when let go. Both hands start open above the bench, either side. Real trial: any hardback about this size with its dust jacket, its front flap 50 mm wide, creased flat and bent back slightly, stood against a bookend with the cover ajar 28 degrees (set with a protractor).",
+  "scoring": "Fold is the flap's angle at its crease: 0 straight out in line with the cover, 180 turned right round the fore-edge flat against the inside of the cover. 0.25: the flap has been turned in round the fore-edge to 150 degrees or more at some time. 0.5: the cover is shut (within 6 degrees of the pages, its fore-edge 14 mm or less from them) with the flap folded 165 degrees or more inside it, between the cover and the pages. 0.75: also the book stayed where it stood: it never moved more than 20 mm, tilted more than 10 degrees or turned more than 10 degrees on the bench. 1.0: also both hands are 6 cm or more outside a box round the shut book, its flap and the bookend, held for 1 s. The score is 0, whatever else, if the book fell over (tilted more than 30 degrees) or the flap was torn off at its crease at any time. Otherwise 0. Real trial: the fore-edge gap is measured with a rule; the flap is checked from above to lie inside the cover, not sticking out; the book's place is marked on paper round its foot; the video shows the hands clear.",
+  "run_limit": "1,200 steps (60 s at 20 Hz)",
+  "reset_notes": "Pull the flap back out, flatten its crease and bend it back about 5 degrees; stand the book back against the bookend on its marks with the cover ajar 28 degrees. A flap that tears is replaced with a fresh jacket.",
+  "fidelity": "Isaac Sim 6.1 PhysX, 240 Hz. The jacket is 1.2 mm sheet; the flap turns at its crease, a damped hinge with a weak spring toward its 5-degree outward rest, which tears at 30 N and stops at 178 degrees, flat inside the cover. The jacket's front panel moves with the cover. The cover's joint is damped with no spring, so the cover stays where it is left.",
+  "scores": "Dream-1 run: 0.0 (993 steps, 49.7 s); it swung the cover part-way shut with the flap still outside. Scripted demo: 1.0 at step 386 (19.3 s). Control, the same demo letting the flap go as soon as it is turned in: 0.25 (the flap springs back out and the cover shuts on it from outside).",
+  "media": "M-JLDSJ8"
+}
