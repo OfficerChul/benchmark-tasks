@@ -1,0 +1,20 @@
+{
+  "title": "Set a pair of binoculars for someone: fold the barrels to their 62 mm eye spacing and turn the focus wheel to the 5 m mark",
+  "category": "Societal relatability",
+  "keywords": [
+    "binoculars",
+    "hinge",
+    "eye spacing",
+    "focus wheel",
+    "bimanual"
+  ],
+  "instruction": "Set these binoculars for me: 62 mm between the eyepieces, and the focus wheel on the 5 m mark.",
+  "context": "Anyone handed a pair of binoculars first folds the barrels to their own eye spacing and focuses them; doing it for someone else means folding the hinge, which takes a hand on each barrel, then holding the binoculars still while a fingertip rolls the stiff focus wheel round to a mark.",
+  "setup": "Bench top z = 0.7475 m (x away from the arms, y to the left). A pair of 10x42 roof-prism binoculars (650 g, black-green rubber armour) lies on the bench on both barrels, eyepieces toward the arms. Each barrel is 43 mm across and 120 mm long (x 0.24 to 0.36), with a 38 mm eyepiece cup 22 mm long beyond it (x 0.218 to 0.24); the barrels lie side by side either side of y 0, opened out on their single centre hinge (along x) to 72.7 mm between the barrel axes (eyepiece centres). The hinge's travel is 56 to 74 mm. The centre focus wheel (22 mm across, 16 mm wide) sits on the hinge axis 20 mm in from the eyepiece end of the barrels (x 0.26); a white line on its rim stands at the top, against the infinity mark printed on the bridge behind it, and the bridge also carries the 5 m mark a third of a turn round (the wheel's top rolling toward the left). The hinge and the wheel both turn stiffly. Both hands start open above the bench, either side. Real trial: any centre-focus binoculars of this size, opened to 72.7 mm, wheel on its infinity mark, with a 5 m mark made on the bridge a third of a turn round.",
+  "scoring": "Eye spacing is the distance between the two barrels' axes (between the eyepiece centres). 0.25: the eye spacing is within 1.5 mm of 62 mm, or the wheel's line is within 15 degrees of the 5 m mark. 0.5: both. 0.75: also the binoculars lie on the bench on both barrels (each barrel level within 20 degrees, its underside within 15 mm of the bench). 1.0: also both hands are 6 cm or more from the binoculars, held for 1 s. The score is 0, whatever else, if the binoculars were dropped (a barrel came down faster than 0.5 m/s) at any time. Otherwise 0. Real trial: the spacing is read with calipers between the eyepiece centres, the wheel's line against the marks from above; the video shows the hands clear and no drop.",
+  "run_limit": "1,200 steps (60 s at 20 Hz)",
+  "reset_notes": "Open the barrels back to 72.7 mm and turn the wheel back to its infinity mark; lay the binoculars back in place, eyepieces toward the arms.",
+  "fidelity": "Isaac Sim 6.1 PhysX, rigid bodies, 240 Hz. The two barrels turn on one damped revolute hinge along the binoculars' axis, the focus wheel on a damped revolute joint on the same axis. The rubber armour is a 16-sided section under its round surface; the barrels lie on it on the bench.",
+  "scores": "Dream-1 run: 0.0 (993 steps, 49.7 s); it reached down to the binoculars but did not fold them. Scripted demo: 1.0 at step 489 (24.5 s). Control, the same demo with the left hand left out: 0.0 (the right hand alone lifts one barrel, the other swings in to the hinge's 56 mm stop).",
+  "media": "M-79769X"
+}
