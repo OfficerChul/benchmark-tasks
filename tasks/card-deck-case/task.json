@@ -1,0 +1,21 @@
+{
+  "title": "Slide a deck of cards back into its plastic case lying on the table, holding the light case still, and close the lid",
+  "category": "Societal relatability",
+  "keywords": [
+    "playing cards",
+    "card case",
+    "snug fit",
+    "sliding object",
+    "hinged lid",
+    "bimanual"
+  ],
+  "instruction": "Put the cards back in their case and close it.",
+  "context": "Putting a deck back in its case after a game is something nearly everyone has done. The case is light and slides on the table, so one hand holds it while the other pushes the snug deck all the way in, and the lid only falls shut once the deck is fully inside.",
+  "setup": "Bench top z = 0.7475 m (x away from the arms, y to the left). A deck of 54 poker-size plastic-coated playing cards, squared (63 x 88 x 17 mm, 95 g), lies face down on the bench, its long edges along y, centred at x 0.300, y -0.140. Beyond it lies its hard plastic case (blue ABS, walls 1.5 mm, 22 g; inside 66 mm wide, 90.5 mm long, 20.5 mm deep), on its back on the bench, its centre line at x 0.300, its open end (the mouth) facing the deck at y -0.020 and its closed end at y 0.072. The case's lid (69 x 21.5 x 1.5 mm, 6 g) is hinged along the mouth edge of the case's upper face: it stands open, leaning back over the case 20 degrees past upright against its hinge stop, and shut it hangs down over the mouth under its own weight. The case's back slides easily on the bench (friction about 0.2); the cards slide on the inside with friction about 0.45, so a push on the deck shoves an unheld case along with it. Both hands start open above the bench, either side. Real trial: any hard plastic poker-deck case with a loose flip lid, inside about 66 x 91 x 21 mm, lying on its back on a smooth table, the deck in line with its mouth.",
+  "scoring": "Measured in the case's frame. The deck is in when its near end is no more than 1 mm outside the mouth, it lies within 10 degrees of square to the case, and its centre is inside the case's walls. 0.25: the deck is in. 0.5: also the lid is shut, hanging within 6 degrees of closed over the mouth. 0.75: also the case still lies on its back on the bench (tilted no more than 15 degrees, not lifted). 1.0: also both hands are 6 cm or more outside the case, held for 1 s. The score is 0 if the lid has come off its hinge at any time. Otherwise 0. Real trial: the deck's end is checked flush with the mouth with a rule across the mouth; the lid is checked down over the mouth; the video shows the hands clear.",
+  "run_limit": "1,200 steps (60 s at 20 Hz)",
+  "reset_notes": "Take the deck out, square it and lay it face down in line with the mouth; lay the case on its back with the lid leaning back against its stop.",
+  "fidelity": "Isaac Sim 6.1 PhysX, rigid bodies, 240 Hz. The deck is one rigid block. The case is a rigid shell of 1.5 mm walls; its lid turns on a free hinge with a stop 20 degrees past upright and falls shut under its own weight.",
+  "scores": "Dream-1 run: 0.0 (321 steps, 16.1 s); it did not reach the deck. Scripted demo: 1.0 at step 460 (23.0 s). Control, the same demo with the left hand not holding the case: 0.0 (the pushed deck shoved the case 15 cm along the bench and never went in).",
+  "media": "M-UTMC6V"
+}
