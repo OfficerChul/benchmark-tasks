@@ -1,0 +1,20 @@
+{
+  "title": "Get a selfie stick ready for a group photo: clamp the phone in its spring holder and pull the stick out to full length",
+  "category": "Societal relatability",
+  "keywords": [
+    "selfie stick",
+    "spring clamp",
+    "telescoping",
+    "phone",
+    "bimanual"
+  ],
+  "instruction": "Get the selfie stick ready for a group photo: put my phone in its holder and pull the stick all the way out.",
+  "setup": "Bench top z = 0.7475 m (x away from the arms, y to the left). A collapsed selfie stick (315 g, 329 mm long) lies on the bench along y at x 0.30, from y 0.003 (clamp head) to y 0.332 (handle end): a black foam handle 28 mm across and 140 mm long (handle toward +y), three steel tubes (23, 20 and 17 mm across) that each slide out 100 mm to a stop and are stiff to slide, and a plastic head with an 85 mm grip neck and a phone clamp. The clamp has a 26 mm wide bed with a fixed jaw on the handle side and a spring jaw at the tip, 58 mm apart at rest, each 11.5 mm tall with a 1.5 mm lip over the phone's edge; the spring jaw opens up to 30 mm against an 80 N/m spring (0.8 N at rest, 1.9 N on a 71.5 mm phone) and is pulled open by a 12 mm thumb knob on a 65 mm arm behind it, toward the arms. A phone (147 x 71.5 x 7.8 mm, 171 g) lies face up on the bench at x 0.42, y 0.15, its length along x. Fully drawn out, the stick is 629 mm long. Both hands start open above the bench, either side. Real trial: any selfie stick with a three-section telescoping shaft and a spring phone clamp, laid out as above.",
+  "scoring": "Extension is the head's travel out of the handle (0 to 300 mm, read as the stick's overall length minus 329 mm). The phone is clamped when its centre is within 15 mm of the clamp's centre line across the stick and within 4 mm of sitting against the fixed jaw along it, it lies on the clamp bed (within 3 mm) and flat on it (within 8 degrees), and the spring jaw rests on the phone's edge (within 2 mm). 0.25: the stick is drawn out to within 10 mm of full length, or the phone is clamped. 0.5: both. 0.75: also the stick lies on the bench (its axis level within 10 degrees, the handle's underside within 15 mm of the bench). 1.0: also both hands are 6 cm or more from the stick and the phone, held for 1 s. The score is 0, whatever else, if the phone was dropped (came down faster than 0.5 m/s) at any time. Otherwise 0. Real trial: the length is read with a tape measure, the phone's seat and the jaw against its edge by eye and a ruler; the video shows the hands clear and no drop.",
+  "run_limit": "1,200 steps (60 s at 20 Hz)",
+  "fidelity": "Isaac Sim 6.1 PhysX, rigid bodies, 240 Hz. Each tube slides on a damped prismatic joint with a hard stop; the spring jaw on a sprung prismatic joint with limits. The handle, tubes and neck are 8-sided under round surfaces; the clamp housing is flat-bottomed. The nested tubes do not collide with each other.",
+  "scores": "Dream-1 run: 0.0 (273 steps, 13.7 s); its left hand reached down toward the phone. Scripted demo: 1.0 at step 767 (38.4 s). Control, the same demo with the left hand left out: 0.0 (the right hand alone drags the stick along the bench, drawing it out only 238 mm, and the phone is never placed).",
+  "media": "M-ED2M3Y",
+  "context": "Handing someone a selfie stick ready to shoot is a two-handed job: the stiff tubes only draw out with the handle held, and the spring holder is narrower than the phone, so one hand holds its jaw open while the other lays the phone in.",
+  "reset_notes": "Push the stick back in, let the spring jaw shut, and lay the stick and the phone back in place."
+}
