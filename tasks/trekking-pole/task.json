@@ -1,0 +1,19 @@
+{
+  "title": "Set a trekking pole to 120 cm: flip its lock open, draw the lower section out to the mark, and flip the lock shut",
+  "category": "Societal relatability",
+  "keywords": [
+    "trekking pole",
+    "flip lock",
+    "telescoping",
+    "bimanual"
+  ],
+  "instruction": "Set my trekking pole to 120 cm: open the flip lock, pull the lower section out to the 120 mark, and shut the lock again.",
+  "setup": "Bench top z = 0.7475 m (x away from the arms, y to the left). A two-section aluminium trekking pole (268 g) lies on the bench along y at x 0.34, set to 110 cm: grip top at y 0.57, tip at y -0.53. It rests on its black foam grip (30 mm across, 130 mm long, at the +y end) and its flip-lock collar (30 mm across, 35 mm long, 60 to 63.5 cm from the grip top); the blue upper shaft is 18 mm across. The lower section (15 mm across, bare aluminium, rubber tip) slides stiffly out of the collar between 100 and 125 cm and carries length marks every 5 cm from 100 to 125 cm (white; 120 cm in red), read at the collar's edge. The flip-lock lever (orange, 45 mm long, 14 mm tall) lies shut along the collar on its side facing the arms, its free end toward the tip, with a raised 8 mm thumb tab 30 mm tall; it swings 95 degrees out toward the arms to open. Both hands start open above the bench, either side. Real trial: any two-section flip-lock trekking pole set to 110 cm, laid out as above.",
+  "scoring": "The pole's length is from the grip top to the tip. 0.25: the length is within 3 cm of 120 cm. 0.5: within 5 mm. 0.75: also the flip lock is shut (its lever within 10 degrees of shut). 1.0: also the pole lies on the bench (its axis level within 10 degrees, the grip's underside within 15 mm of the bench) and both hands are 6 cm or more from the pole and its lever, held for 1 s. The score is 0, whatever else, if the pole was dropped (came down faster than 0.5 m/s) or the lock was forced (the length changed by more than 5 mm while the lever was shut) at any time. Otherwise 0. Real trial: the length is read with a tape measure, the lever by eye; the video shows the lever opened before the section moves, the hands clear and no drop.",
+  "run_limit": "1,200 steps (60 s at 20 Hz)",
+  "fidelity": "Isaac Sim 6.1 PhysX, rigid bodies, 240 Hz. The lower section slides on a damped prismatic joint with stops at 100 and 125 cm; the lever turns on a damped hinge with stops. The lock's clamping force is not modelled: the scorer treats the length changing by more than 5 mm while the lever is shut as forcing the lock. The grip, shaft, collar and lower section are 8-sided under round surfaces.",
+  "scores": "Dream-1 run: 0.0 (945 steps, 47.3 s); its right hand went to the lock and turned the lever 13 degrees, and the section did not move. Scripted demo: 1.0 at step 579 (29.0 s). Control, the same demo with the left hand left out: 0.25 (the right hand alone drags the whole pole 20 cm along the bench and draws the section out only to 119.2 cm).",
+  "media": "M-6B9JMY",
+  "context": "Adjusting a trekking pole to someone's height is the first thing done on a hike: the flip lock has to be opened before the section will move, the stiff section only draws out with the grip held, and the lock is shut again at the mark.",
+  "reset_notes": "Push the lower section back to the 110 cm mark with the lock open, shut the lock, and lay the pole back in place."
+}
